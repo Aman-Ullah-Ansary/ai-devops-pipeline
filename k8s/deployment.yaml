@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-devops-app
+  labels:
+    app: ai-devops-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ai-devops-app
+  template:
+    metadata:
+      labels:
+        app: ai-devops-app
+    spec:
+      containers:
+      - name: ai-devops-app
+        image: amanansary0215/ai-devops-app:latest
+        ports:
+        - containerPort: 5000
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 5000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+          limits:
+            memory: "128Mi"
+            cpu: "200m"

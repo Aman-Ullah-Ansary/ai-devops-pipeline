@@ -47,3 +47,22 @@ jobs:
         tags: |
           ${{ secrets.DOCKER_USERNAME }}/ai-devops-app:latest
           ${{ secrets.DOCKER_USERNAME }}/ai-devops-app:${{ github.sha }}
+
+  ai-failure-analysis:
+    needs: build-and-test
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install Groq SDK
+      run: pip install groq
+    
+    - name: AI Analyze Failure (Groq)
+      env:
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      run: python ai-scripts/log_analyzer.py
