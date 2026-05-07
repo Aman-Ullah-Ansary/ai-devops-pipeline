@@ -19,7 +19,7 @@ failure analysis, anomaly detection, and self-healing.
 - **Containers:** Docker
 - **Orchestration:** Kubernetes
 - **Monitoring:** Prometheus + Grafana
-- **AI:** GROQ mixtral-8x7b-32768
+- **AI:** GROQ llama3-8b-8192
 - **Alerts:** Slack Webhooks
 
 ## 🚀 How to Run
