@@ -70,7 +70,7 @@ ACTION: [What to do about it, or write "Continue monitoring" if normal]"""
 
     try:
         response = client.chat.completions.create(
-            model="mixtral-8x7b-32768",
+            model="llama3-8b-8192",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=150,
             temperature=0.3  # Lower temp for consistent parsing

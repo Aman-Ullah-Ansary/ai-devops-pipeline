@@ -26,7 +26,7 @@ Build Logs:
     print("🤖 Groq AI is analyzing the failure...")
 
     response = client.chat.completions.create(
-        model="mixtral-8x7b-32768",  # Groq's best model
+        model="llama3-8b-8192",  # Groq's best model
         messages=[{"role": "user", "content": prompt}],
         max_tokens=400,
         temperature=0.7
