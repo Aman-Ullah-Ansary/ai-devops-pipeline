@@ -3,6 +3,15 @@
 An end-to-end DevOps pipeline where AI actively participates in code review, 
 failure analysis, anomaly detection, and self-healing.
 
+
+![CI/CD](https://github.com/Aman-Ullah-Ansary/ai-devops-pipeline/actions/workflows/ci-cd.yaml/badge.svg)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Deployed-blue)
+![AI](https://img.shields.io/badge/AI-Groq%20LLaMA3-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+
+
 ## 🔥 4 AI Features
 
 | Feature | What It Does |
