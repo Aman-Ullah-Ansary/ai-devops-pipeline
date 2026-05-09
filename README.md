@@ -30,7 +30,7 @@ git clone https://github.com/Aman-Ullah-Ansary/ai-devops-pipeline.git
 cd ai-devops-pipeline
 
 # Set environment
-export GROQ_API_KEY= "your-key"
+export GROQ_API_KEY="your-key"
 export SLACK_WEBHOOK_URL= "your-webhook"
 
 # Start Kubernetes
