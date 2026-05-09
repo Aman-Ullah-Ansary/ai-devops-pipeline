@@ -31,6 +31,27 @@ failure analysis, anomaly detection, and self-healing.
 - **AI:** GROQ llama3-8b-8192
 - **Alerts:** Slack Webhooks
 
+## Project Screenshot  
+
+<img width="1182" height="170" alt="Screenshot 2026-05-08 013104" src="https://github.com/user-attachments/assets/1bd6b4a0-d1ff-4773-b416-9a1d0a6a2f6c" />
+<img width="1215" height="678" alt="Screenshot 2026-05-07 165121" src="https://github.com/user-attachments/assets/d0869916-0631-4083-935f-a59a112cedb2" />
+<img width="1523" height="803" alt="Screenshot 2026-05-08 021000" src="https://github.com/user-attachments/assets/b5c96364-a8db-43d6-81c0-4690e0312bd0" />
+<img width="1532" height="717" alt="Screenshot 2026-05-08 014820" src="https://github.com/user-attachments/assets/1203eeac-c661-47b2-ae02-dbe23403611c" />
+<img width="1521" height="810" alt="Screenshot 2026-05-08 012316" src="https://github.com/user-attachments/assets/86b289da-87d9-49d3-a031-558371416d5d" />
+<img width="1525" height="823" alt="Screenshot 2026-05-08 012253" src="https://github.com/user-attachments/assets/0af0f112-22c1-400e-8b2a-a1130e101153" />
+<img width="1522" height="736" alt="Screenshot 2026-05-08 003014" src="https://github.com/user-attachments/assets/e9801100-f2a5-47d6-8a8a-bae4c2cb2e11" />
+<img width="1511" height="852" alt="Screenshot 2026-05-07 165005" src="https://github.com/user-attachments/assets/e99107bc-ff76-4cc2-a2b8-4647f354caa9" />
+<img width="1532" height="733" alt="Screenshot 2026-05-07 164936" src="https://github.com/user-attachments/assets/79a0fa94-023a-4d5a-8f73-99c32ff2c5a1" />
+<img width="1417" height="692" alt="Screenshot 2026-05-10 020619" src="https://github.com/user-attachments/assets/2f4f8487-03e7-45f7-ac68-63ac1a5f5a83" />
+
+
+
+
+
+
+
+
+
 ## 🚀 How to Run
 
 ```bash
